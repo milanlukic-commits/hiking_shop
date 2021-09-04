@@ -8,7 +8,7 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-    <!-- owl carousel -->
+    <!-- OWL carousel -->
     <link rel="stylesheet" href="../hiking_shop/css/owl.carousel.min.css">
     <link rel="stylesheet" href="../hiking_shop/css/owl.theme.default.min.css">
 
@@ -23,7 +23,7 @@
     <!-- topbar -->
     <section class="topbar">
         <h1>
-            <a class="logo" href="index.html"><i class="fas fa-hiking"></i>Hiking shop</a>
+            <a class="logo" href="index.php"><i class="fas fa-hiking"></i>Hiking shop</a>
         </h1>
     </section>
 
@@ -31,16 +31,16 @@
     <nav>
         <ul>
             <li>
-                <a class="active" href="index.html">Home</a>
+                <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="products.html">Products</a>
+                <a href="products.php">Products</a>
             </li>
             <li>
-                <a href="about_us.html">About us</a>
+                <a href="about_us.php">About us</a>
             </li>
             <li>
-                <a href="contact_us.html">Contact us</a>
+                <a href="contact_us.php">Contact us</a>
             </li>
         </ul>
     </nav>
@@ -59,57 +59,57 @@
         <h2>Featured items</h2>
         <article class="owl-carousel owl-theme">
             <div class="item">
-                <a href="single.html">
-                    <img src="img/boots.jpg" alt="">
+                <a href="single.php">
+                    <img src="img/boots.jpg" alt="boots">
                     <h3>Boots</h3>
                     <p>$220</p>
                 </a>
             </div>
             <div class="item">
-                <a href="single.html">
-                    <img src="img/gloves.jpg" alt="">
+                <a href="single.php">
+                    <img src="img/gloves.jpg" alt="gloves">
                     <h3>GLoves</h3>
                     <p>$20</p>
                 </a>
             </div>
             <div class="item">
-                <a href="single.html">
-                    <img src="img/jackets.jpg" alt="">
+                <a href="single.php">
+                    <img src="img/jackets.jpg" alt="jackets">
                     <h3>Jackets</h3>
                     <p>$290</p>
                 </a>
             </div>
             <div class="item">
-                <a href="single.html">
-                    <img src="img/pants.jpg" alt="">
+                <a href="single.php">
+                    <img src="img/pants.jpg" alt="pants">
                     <h3>Pants</h3>
                     <p>$110</p>
                 </a>
             </div>
             <div class="item">
-                <a href="single.html">
-                    <img src="img/poles.jpg" alt="">
+                <a href="single.php">
+                    <img src="img/poles.jpg" alt="poles">
                     <h3>Poles</h3>
                     <p>$50</p>
                 </a>
             </div>
             <div class="item">
-                <a href="single.html">
-                    <img src="img//shirts.jpg" alt="">
+                <a href="single.php">
+                    <img src="img//shirts.jpg" alt="shirts">
                     <h3>Shirts</h3>
                     <p>$80</p>
                 </a>
             </div>
             <div class="item">
-                <a href="single.html">
-                    <img src="img/skirts.jpg" alt="">
+                <a href="single.php">
+                    <img src="img/skirts.jpg" alt="skirts">
                     <h3>Skirts</h3>
                     <p>$90</p>
                 </a>
             </div>
             <div class="item">
-                <a href="single.html">
-                    <img src="img/socks.jpg" alt="">
+                <a href="single.php">
+                    <img src="img/socks.jpg" alt="socks">
                     <h3>Socks</h3>
                     <p>$10</p>
                 </a>
@@ -133,21 +133,21 @@
     <footer>
         <article  class="container">
         <h3>
-            <a class="logo" href="index.html"><i class="fas fa-hiking"></i>Hiking shop</a>
+            <a class="logo" href="index.php"><i class="fas fa-hiking"></i>Hiking shop</a>
         </h3>
         <nav>
             <ul>
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a class="active" href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="products.html">Products</a>
+                    <a href="products.php">Products</a>
                 </li>
                 <li>
-                    <a href="about_us.html">About us</a>
+                    <a href="about_us.php">About us</a>
                 </li>
                 <li>
-                    <a href="contact_us.html">Contact us</a>
+                    <a href="contact_us.php">Contact us</a>
                 </li>
             </ul>
         </nav>

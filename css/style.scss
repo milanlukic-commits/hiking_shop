@@ -1,5 +1,217 @@
 @import 'variables';
 @import 'basics';
 
+/* topbar */
+.topbar {
+    text-align: center;
+    border-top: 5px solid $primary;
+    border-bottom: 1px solid $lightgray;
+    padding: 20px 0;
+    a {
+        font-size: 2rem;
+        text-shadow: 0 0 1px $text;
+        &:hover {
+            color: $text;
+        }
+        i {
+            color: $text;
+            margin-right: 10px;
+            font-size: 2.5rem;
+        }
+    }
+}
 
+/* nav */
+nav {
+    text-align: center;
+    ul li {
+        display: inline-block;
+        margin: 30px;
+        a {
+            color: $black;
+            text-transform: uppercase;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+/* header */
+header {
+    background-image: url(../img/header.jpg);
+    padding: 200px 0;
+    background-position: center top;
+    background-size: cover;
+    article {
+        width: 30%;
+        padding: 40px;
+        background: rgba(255, 255, 255, .7);
+        margin-left: 15%;
+        h1 {
+            &::after {
+                display: block;
+                content: "";
+                width: 50px;
+                background: $primary;
+                height: 3px;
+                margin: 20px 0;
+            }
+        }
+        button {
+            background: $primary;
+            border: none;
+            color: $white;
+            transition: $transition;
+            &:hover {
+                color: $black;
+            }
+        }
+    }
+}
+
+/* featuredItems */
+.featuredItems {
+    h2 {
+    margin-bottom: 30px;
+    }
+    .owl-carousel {
+        .item {
+            border: 1px solid $borders;
+            padding: 30px;
+            border-radius: 5px;
+            transition: $transition;
+            &:hover {
+                border: 1px solid $primary;
+            }
+        }
+    }
+}
+
+/* subscribe */
+.subscribe {
+    text-align: center;
+    background: var(--primary);
+    color: var(--white);
+}
+.subscribe h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.subscribe p {
+    margin: 20px;
+}
+.subscribe input {
+    padding: 10px;
+    border-radius: 5px;
+}
+.subscribe input[type="text"] {
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+.subscribe input[type="submit"] {
+    background: var(--white);
+    border: 1px solid var(--white);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.subscribe input[type="submit"]:hover {
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid var(--black);
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+footer h3 a {
+    font-size: 1.5rem;
+}
+footer h3 a:hover {
+    color: var(--text);
+}
+footer a i {
+    color: var(--text);
+    margin-right: 10px;
+    font-size: 2rem;
+    transition: var(--transition);
+}
+footer a i:hover {
+    color: var(--primary);
+}
+footer nav ul li {
+    margin: 15px;
+}
+footer nav a {
+    font-size: .8rem;
+}
+footer .icons a i {
+    font-size: 1.5rem;
+}
+footer article:last-child {
+    border-top: 1px solid var(--lightgray);
+    padding: 15px 0;
+}
+
+/* products */
+.products .item img {
+    width: 100%;
+}
+.products .item {
+    width: 22%;
+    float: left;
+    border: 1px solid var(--borders);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+.products .item:hover {
+    border: 1px solid var(--primary);
+}
+
+/* single */
+.single h2 {
+    margin-bottom: 20px;
+}
+.single article div:first-child {
+    float: left;
+    width: 40%;
+}
+.single article div:last-child {
+    float: right;
+    width: 55%;
+}
+.single img {
+    width: 100%;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+}
+.single h3 {
+    font-size: 1.7rem;
+}
+.single .price {
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+.single p {
+    font-weight: 300;
+    padding: 10px 0;
+}
+.single button {
+    background: var(--primary);
+    border: none;
+    color: var(--white);
+}
+.single button:hover {
+    background: var(--black);
+}
+.single select {
+    border: 1px solid var(--primary);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
 
