@@ -3,7 +3,7 @@
 
 <!-- products -->
 <section class="products container">
-    <article class="owl-carousel owl-theme">
+    <article>
         <div class="item">
             <a href="single.php">
                 <img src="img/boots.jpg" alt="boots">

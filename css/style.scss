@@ -162,19 +162,26 @@ footer {
 }
 
 /* products */
-.products .item {
-    width: 22%;
-    display: flex;
-    border: 1px solid $borders;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    transition: $transition;
-    &:hover {
-        border: 1px solid $primary;
-    }
-    img {
-        width: 100%;
+.products {
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        .item {
+            align-items: center;
+            justify-content: space-between;
+            width: 22%;
+            border: 1px solid $borders;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            transition: $transition;
+            &:hover {
+                border: 1px solid $primary;
+            }
+            img {
+                width: 100%;
+            }
+        }
     }
 } 
 
