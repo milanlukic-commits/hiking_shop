@@ -158,8 +158,8 @@ header article button:hover {
 /* subscribe */
 .subscribe {
   text-align: center;
-  background: var(--primary);
-  color: var(--white);
+  background: #3a8bcd;
+  color: #fff;
 }
 
 .subscribe h3 {
@@ -176,24 +176,24 @@ header article button:hover {
   border-radius: 5px;
 }
 
-.subscribe input[type="text"] {
+.subscribe input input[type="text"] {
   background: transparent;
-  border: 1px solid var(--white);
-  color: var(--white);
+  border: 1px solid #fff;
+  color: #fff;
 }
 
-.subscribe input[type="submit"] {
-  background: var(--white);
-  border: 1px solid var(--white);
+.subscribe input input[type="submit"] {
+  background: #fff;
+  border: 1px solid #fff;
   cursor: pointer;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
-.subscribe input[type="submit"]:hover {
-  background: var(--black);
-  color: var(--white);
-  border: 1px solid var(--black);
+.subscribe input input[type="submit"]:hover {
+  background: #1e1e1e;
+  color: #fff;
+  border: 1px solid #1e1e1e;
 }
 
 /* footer */
@@ -206,35 +206,31 @@ footer h3 a {
 }
 
 footer h3 a:hover {
-  color: var(--text);
-}
-
-footer a i {
-  color: var(--text);
-  margin-right: 10px;
-  font-size: 2rem;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-footer a i:hover {
-  color: var(--primary);
+  color: #4a4a4a;
 }
 
 footer nav ul li {
   margin: 15px;
 }
 
-footer nav a {
+footer nav ul li a {
   font-size: .8rem;
 }
 
 footer .icons a i {
-  font-size: 1.5rem;
+  color: #4a4a4a;
+  margin-right: 10px;
+  font-size: 2rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+footer .icons a i:hover {
+  color: #3a8bcd;
 }
 
 footer article:last-child {
-  border-top: 1px solid var(--lightgray);
+  border-top: 1px solid #f6f6f6;
   padding: 15px 0;
 }
 
