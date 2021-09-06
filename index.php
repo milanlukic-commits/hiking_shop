@@ -1,49 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
-    <!-- OWL carousel -->
-    <link rel="stylesheet" href="../hiking_shop/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../hiking_shop/css/owl.theme.default.min.css">
-
-    <title>Hiking shop</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-
-    <!-- topbar -->
-    <section class="topbar">
-        <h1>
-            <a class="logo" href="index.php"><i class="fas fa-hiking"></i>Hiking shop</a>
-        </h1>
-    </section>
-
-    <!-- nav -->
-    <nav>
-        <ul>
-            <li>
-                <a href="index.php">Home</a>
-            </li>
-            <li>
-                <a href="products.php">Products</a>
-            </li>
-            <li>
-                <a href="about_us.php">About us</a>
-            </li>
-            <li>
-                <a href="contact_us.php">Contact us</a>
-            </li>
-        </ul>
-    </nav>
+<!-- topbar -->
+<?php $page = index; include "include/nav.php" ?>
 
     <!-- header -->
     <header>
@@ -118,57 +74,7 @@
     </section>
 
     <!-- subscribe -->
-    <section class="subscribe">
-        <article class="container">
-            <h3>Subscribe on Hiking shop now!</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fuga accusantium labore voluptatum laudantium id, rem optio nemo minus voluptatibus voluptas.</p>
-            <form>
-                <input type="text" placeholder="Your email...">
-                <input type="submit" value="Subscribe">
-            </form>
-        </article>
-    </section>
+    <?php include "include/subscribe.php" ?>
 
     <!-- footer -->
-    <footer>
-        <article  class="container">
-        <h3>
-            <a class="logo" href="index.php"><i class="fas fa-hiking"></i>Hiking shop</a>
-        </h3>
-        <nav>
-            <ul>
-                <li>
-                    <a class="active" href="index.php">Home</a>
-                </li>
-                <li>
-                    <a href="products.php">Products</a>
-                </li>
-                <li>
-                    <a href="about_us.php">About us</a>
-                </li>
-                <li>
-                    <a href="contact_us.php">Contact us</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="icons">
-            <span><a href=""><i class="fab fa-facebook-square"></i></a></span>
-            <span><a href=""><i class="fab fa-instagram"></i></a></span>
-            <span><a href=""><i class="fab fa-twitter"></i></a></span>
-            <span><a href=""><i class="fab fa-pinterest"></i></a></span>
-        </div>
-        </article>
-        <article>
-            <p>&copy; Hiking shop 2021.</p>
-        </article>
-    </footer>
-
-
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-
-
-</body>
-</html>
+    <?php include "include/footer.php" ?>

@@ -103,21 +103,21 @@ header {
     input {
         padding: 10px;
         border-radius: 5px;
-        input[type="text"] {
-            background: transparent;
-            border: 1px solid $white;
+    }
+    input[type="text"] {
+        background: transparent;
+        border: 1px solid $white;
+        color: $white;
+    }
+    input[type="submit"] {
+        background: $white;
+        border: 1px solid $white;
+        cursor: pointer;
+        transition: $transition;
+        &:hover {
+            background: $black;
             color: $white;
-        }
-        input[type="submit"] {
-            background: $white;
-            border: 1px solid $white;
-            cursor: pointer;
-            transition: $transition;
-            &:hover {
-                background: $black;
-                color: $white;
-                border: 1px solid $black;
-            }
+            border: 1px solid $black;
         }
     }
 }
@@ -129,6 +129,11 @@ footer {
         font-size: 1.5rem;
         &:hover {
             color: $text;
+        }
+        i {
+            color: $text;
+            margin-right: 10px;
+            font-size: 2rem;
         }
     }
     nav {
@@ -143,7 +148,7 @@ footer {
         a i {
             color: $text;
             margin-right: 10px;
-            font-size: 2rem;
+            font-size: 1.7rem;
             transition: $transition;
             &:hover {
                 color: $primary;
@@ -157,21 +162,22 @@ footer {
 }
 
 /* products */
-.products .item img {
-    width: 100%;
-}
 .products .item {
     width: 22%;
-    float: left;
-    border: 1px solid var(--borders);
+    display: flex;
+    border: 1px solid $borders;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-    transition: var(--transition);
-}
-.products .item:hover {
-    border: 1px solid var(--primary);
-}
+    transition: $transition;
+    &:hover {
+        border: 1px solid $primary;
+    }
+    img {
+        width: 100%;
+    }
+} 
+
 
 /* single */
 .single h2 {
