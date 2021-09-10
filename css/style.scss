@@ -27,6 +27,9 @@ nav {
     ul li {
         display: inline-block;
         margin: 30px;
+        @media(max-width:767px){
+            margin: 11px;
+        }
         a {
             color: $black;
             text-transform: uppercase;
@@ -48,24 +51,24 @@ header {
         padding: 40px;
         background: rgba(255, 255, 255, .7);
         margin-left: 15%;
-        h1 {
-            &::after {
-                display: block;
-                content: "";
-                width: 50px;
-                background: $primary;
-                height: 3px;
-                margin: 20px 0;
-            }
-        }
-        button {
+    }
+    h1 {
+        &::after {
+            display: block;
+            content: "";
+            width: 50px;
             background: $primary;
-            border: none;
-            color: $white;
-            transition: $transition;
-            &:hover {
-                color: $black;
-            }
+            height: 3px;
+            margin: 20px 0;
+        }
+    }
+    button {
+        background: $primary;
+        border: none;
+        color: $white;
+        transition: $transition;
+        &:hover {
+            color: $black;
         }
     }
 }
@@ -312,4 +315,3 @@ footer {
         }
     }
 } 
-
