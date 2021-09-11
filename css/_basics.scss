@@ -52,6 +52,9 @@ ul {
     width: 70%;
     margin: auto;
     padding: 100px 0;
+    @media(max-width: 767px){
+        width: 85%;
+    }
 }
 button {
     padding: 15px 40px;
