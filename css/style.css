@@ -66,13 +66,6 @@ ul {
   padding: 100px 0;
 }
 
-@media (max-width: 767px) {
-  .container {
-    width: 90%;
-    padding: 50px 0;
-  }
-}
-
 button {
   padding: 15px 40px;
   margin-top: 25px;
@@ -117,7 +110,7 @@ nav ul li {
 
 @media (max-width: 767px) {
   nav ul li {
-    margin: 11px;
+    margin: 0 5px;
   }
 }
 
@@ -138,11 +131,25 @@ header {
   background-size: cover;
 }
 
+@media (max-width: 767px) {
+  header {
+    padding: 100px 0;
+    background-position: center right;
+  }
+}
+
 header article {
   width: 30%;
   padding: 40px;
   background: rgba(255, 255, 255, 0.7);
   margin-left: 15%;
+}
+
+@media (max-width: 767px) {
+  header article {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 header h1::after {
@@ -246,6 +253,12 @@ footer h3 a i {
 
 footer nav ul li {
   margin: 15px;
+}
+
+@media (max-width: 767px) {
+  footer nav ul li {
+    margin: 10px;
+  }
 }
 
 footer nav ul li a {

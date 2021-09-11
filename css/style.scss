@@ -27,8 +27,8 @@ nav {
     ul li {
         display: inline-block;
         margin: 30px;
-        @media(max-width:767px){
-            margin: 11px;
+        @media(max-width: 767px){
+            margin: 0 5px;
         }
         a {
             color: $black;
@@ -46,11 +46,19 @@ header {
     padding: 200px 0;
     background-position: center top;
     background-size: cover;
+    @media(max-width: 767px){
+        padding: 100px 0;
+        background-position: center right;
+    }
     article {
         width: 30%;
         padding: 40px;
         background: rgba(255, 255, 255, .7);
         margin-left: 15%;
+        @media(max-width: 767px) {
+            width: 90%;
+            margin: auto;
+        }
     }
     h1 {
         &::after {
@@ -143,6 +151,9 @@ footer {
     nav {
         ul li {
             margin: 15px;
+            @media(max-width: 767px){
+                margin: 10px;
+            }
             a {
                 font-size: .8rem;
             }
